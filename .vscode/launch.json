@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sum_2",
+            "request": "launch",
+            "mainClass": "sum_2",
+            "projectName": "leetcode_hot100_9c5e4241"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
