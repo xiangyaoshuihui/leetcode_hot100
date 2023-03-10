@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 
-public class string_3 {
+public class medium_3 {
     public static void main(String[] args) {
         String ss = "tmmzuxt";
         int result = lengthOfLongestSubstring(ss);

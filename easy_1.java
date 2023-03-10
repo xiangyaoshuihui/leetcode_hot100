@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class sum_of_two_1 {
+public class easy_1 {
     public static void main(String[] args){
         int [] a=new int[]{3,2,4};
         int []c={1,1,11,1};

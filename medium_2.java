@@ -10,7 +10,7 @@ class ListNode {
 }
  
 
-public class sum_2 {
+public class medium_2 {
     public static void main(String[] args){
         System.out.println("helloworld");
     }

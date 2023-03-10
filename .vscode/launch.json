@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "easy_20",
+            "request": "launch",
+            "mainClass": "easy_20",
+            "projectName": "leetcode_hot100_9c5e4241"
+        },
+        {
+            "type": "java",
+            "name": "medium_2",
+            "request": "launch",
+            "mainClass": "medium_2",
+            "projectName": "leetcode_hot100_9c5e4241"
+        },
+        {
+            "type": "java",
             "name": "string_3",
             "request": "launch",
             "mainClass": "string_3",
