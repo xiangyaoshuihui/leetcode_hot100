@@ -1,4 +1,10 @@
 import java.util.Stack;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Deque;
+import java.util.LinkedList;
+
+
 public class easy_20 {
     public static void main(String[] args){
 
@@ -34,4 +40,32 @@ public class easy_20 {
         }
         return result;
     }
+
+    //官方题解
+    public boolean isValid2(String s) {
+        int n = s.length();
+        if (n % 2 == 1) {
+            return false;
+        }
+
+        Map<Character, Character> pairs = new HashMap<Character, Character>() {{
+            put(')', '(');
+            put(']', '[');
+            put('}', '{');
+        }};
+        Deque<Character> stack = new LinkedList<Character>();
+        for (int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+            if (pairs.containsKey(ch)) {
+                if (stack.isEmpty() || stack.peek() != pairs.get(ch)) {
+                    return false;
+                }
+                stack.pop();
+            } else {
+                stack.push(ch);
+            }
+        }
+        return stack.isEmpty();
+    }
+
 }
