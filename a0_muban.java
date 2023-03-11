@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.List;
 
 public class a0_muban {
     public static void main(String[] args){
