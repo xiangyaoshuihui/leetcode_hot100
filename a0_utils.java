@@ -1,5 +1,17 @@
 import java.util.Arrays;
 
+import java.util.List;
+import java.util.ArrayList;
+
+import java.util.Stack;
+import java.util.Deque;
+
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Set;
+import java.util.HashSet;
+
+
 
 public class a0_utils {
 
@@ -97,8 +109,12 @@ public class a0_utils {
         System.out.println(sb);
         sb.substring(0);
         sb.charAt(0);
-
+        
+        //char[],string,stringbuffer
         sb.toString();
+        char []cc12=sq1.toCharArray();
+        String sss00=new String(cc12);
+
 
 
         //其他类型转换到字符串，字符串转换到其他类型
@@ -131,6 +147,23 @@ public class a0_utils {
 
 
         // 常用数据结构：queue，stack,priority_queue，set，map
+
+        List<Integer> l123=new ArrayList<>(){{add(1);}};
+        Integer []zzuy=new Integer []{1,2,3};
+
+
+
+        //Map
+
+        //遍历
+        Map<String,Integer> m=new HashMap<>();
+        for(Map.Entry<String,Integer> entry : m.entrySet()){
+            entry.getValue();
+            entry.getKey();
+        };
+
+        
+
 
 
         // 父类，接口，抽象类
