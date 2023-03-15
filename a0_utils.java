@@ -11,11 +11,15 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.HashSet;
 
+import java.util.Comparator;
 
 
 public class a0_utils {
 
     public static void main(String[] args) {
+
+
+    
     // 输入输出
         System.out.println("helloworld");
 
@@ -144,18 +148,26 @@ public class a0_utils {
         Arrays.sort(zz);
         Arrays.fill(zz,1);
 
+        int[][] intervals=new int[10][2]; //自定义排序
+        Arrays.sort(intervals, new Comparator<int[]>() {
+            public int compare(int[] interval1, int[] interval2) {
+                return interval1[0] - interval2[0];
+            }});
 
 
-        // 常用数据结构：queue，stack,priority_queue，set，map
 
+    // 常用数据结构：queue，stack,priority_queue，set，map
+
+        //list
         List<Integer> l123=new ArrayList<>(){{add(1);}};
         Integer []zzuy=new Integer []{1,2,3};
+        l123.toArray(); //转成数组
 
 
 
         //Map
 
-        //遍历
+          //遍历
         Map<String,Integer> m=new HashMap<>();
         for(Map.Entry<String,Integer> entry : m.entrySet()){
             entry.getValue();
@@ -166,9 +178,9 @@ public class a0_utils {
 
 
 
-        // 父类，接口，抽象类
+    // 父类，接口，抽象类
 
-        // 重载
+    // 重载
     }
 
 }
