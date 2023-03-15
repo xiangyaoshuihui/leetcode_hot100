@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "medium_39",
+            "request": "launch",
+            "mainClass": "medium_39",
+            "projectName": "leetcode_hot100_9c5e4241"
+        },
+        {
+            "type": "java",
             "name": "medium_33",
             "request": "launch",
             "mainClass": "medium_33",
